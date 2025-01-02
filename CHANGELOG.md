@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/compare/v1.2.0...v1.2.1) (2025-01-02)
+
+
+### Bug Fixes
+
+* format paths ([15ee896](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/commit/15ee8966b30df0b1dcbd3c0b576d6eb95ab7fabc))
+
+
+
 # [1.2.0](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/compare/v1.1.0...v1.2.0) (2025-01-02)
 
 
