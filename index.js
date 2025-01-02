@@ -6,6 +6,8 @@ const core = require("@actions/core");
 
 const CdnClient = tencentCloud.cdn.v20180606.Client;
 
+console.log(core.getInput("paths"));
+
 const inputs = {
   secretId: core.getInput("secret_id"),
   secretKey: core.getInput("secret_key"),
