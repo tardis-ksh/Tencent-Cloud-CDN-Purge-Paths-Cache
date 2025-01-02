@@ -4,10 +4,10 @@ branding:
   icon: refresh-ccw
   color: yellow
 inputs:
-  secret-id:
+  secret_id:
     description: The secretId used to authenticate with Tencent Cloud.
     required: true
-  secret-key:
+  secret_key:
     description: The accessKeySecret used to authenticate with Tencent Cloud.
     required: true
   paths:
