@@ -6,12 +6,10 @@ const core = require("@actions/core");
 
 const CdnClient = tencentCloud.cdn.v20180606.Client;
 
-console.log(core.getInput("paths"));
-
 const inputs = {
   secretId: core.getInput("secret_id"),
   secretKey: core.getInput("secret_key"),
-  Paths: core.getInput("paths")?.split("/\s+/").filter(Boolean),
+  Paths: core.getInput("paths")?.split(/\s+/).filter(Boolean),
   FlushType: core.getInput("flush_type"),
   UrlEncode: core.getInput("url_encode"),
   Area: core.getInput("area"),
