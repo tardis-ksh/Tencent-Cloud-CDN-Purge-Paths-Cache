@@ -7,6 +7,6 @@
     "tencentcloud-sdk-nodejs-cdn": "^4.0.980"
   },
   "devDependencies": {
-    "prettier": "^3.4.1"
+    "prettier": "^3.4.2"
   }
 }
