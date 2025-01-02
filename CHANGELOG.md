@@ -1,3 +1,12 @@
+## [1.2.3](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/compare/v1.2.2...v1.2.3) (2025-01-02)
+
+
+### Bug Fixes
+
+* unified boolean ([bacc1d1](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/commit/bacc1d112cd8ee2bf9c30506042e44a12730a5d3))
+
+
+
 ## [1.2.2](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/compare/v1.2.1...v1.2.2) (2025-01-02)
 
 
