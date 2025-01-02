@@ -11,11 +11,11 @@ const inputs = {
   secretKey: core.getInput("secret_key"),
   Paths: core.getInput("paths")?.split(/\s+/).filter(Boolean),
   FlushType: core.getInput("flush_type"),
-  UrlEncode: core.getInput("url_encode"),
-  Area: core.getInput("area") === 'true',
+  UrlEncode: core.getInput("url_encode") === "true",
+  Area: core.getInput("area"),
 };
 
-console.log(inputs, 'tencent cdn purge cache user inputs');
+console.log(inputs, "tencent cdn purge cache user inputs");
 
 const clientConfig = {
   credential: {
