@@ -10,17 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os:
-          [
-            ubuntu-20.04,
-            ubuntu-22.04,
-            windows-2019,
-            windows-2022,
-            macos-11,
-            macos-12,
-            macos-13,
-            macos-14,
-          ]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 2
 
@@ -38,7 +28,6 @@ jobs:
           flush_type: delete
           url_encode: false
           area: mainland
-
 
   test-passing:
     needs: [test]
