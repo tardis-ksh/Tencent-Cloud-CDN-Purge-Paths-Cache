@@ -1,3 +1,12 @@
 {
-  "version": "0.4.0"
+  "name": "tencent-cloud-cdn-purge-paths-cache",
+  "version": "1.0.0",
+  "packageManager": "pnpm@9.15.2",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "tencentcloud-sdk-nodejs-cdn": "^4.0.980"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  }
 }

@@ -1,19 +1,31 @@
-name: Basic Action Template
-description: Get started with Basic actions
+name: Tencent-Cloud-CDN-Purge-Paths-Cache
+description: This action purges paths cache for Tencent Cloud CDN via Node SDK API.
 branding:
-  icon: check-circle
+  icon: refresh-ccw
   color: yellow
 inputs:
-  argument1:
-    description: first argument
+  secret-id:
+    description: The secretId used to authenticate with Tencent Cloud.
+    required: true
+  secret-key:
+    description: The accessKeySecret used to authenticate with Tencent Cloud.
+    required: true
+  paths:
+    description: "Directory listing, needs to include protocol header http: or https:"
+    required: true
+  flush_type:
+    description: "flush type: flush or delete"
+    default: "delete"
+    required: true
+  url_encode:
+    description: "url encode"
+    type: boolean
+    default: false
     required: false
-    default: argument 1
-outputs:
-  argument1:
-    description: out puts first argument
-    value: first argument value
+  area:
+    description: "flush area: mainland or overseas"
+    required: false
+
 runs:
-  using: composite
-  steps:
-    - name: actionsRun
-      run: echo "Hello, ${{ inputs.argument1 }}"
+  using: node20
+  main: index.js
