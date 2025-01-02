@@ -19,7 +19,6 @@ inputs:
     required: true
   url_encode:
     description: "url encode"
-    type: boolean
     default: false
     required: false
   area:

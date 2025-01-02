@@ -12,7 +12,7 @@ const inputs = {
   Paths: core.getInput("paths")?.split(/\s+/).filter(Boolean),
   FlushType: core.getInput("flush_type"),
   UrlEncode: core.getInput("url_encode"),
-  Area: core.getInput("area"),
+  Area: core.getInput("area") === 'true',
 };
 
 console.log(inputs, 'tencent cdn purge cache user inputs');

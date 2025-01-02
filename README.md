@@ -18,3 +18,14 @@ This action purges paths cache for Tencent Cloud CDN via Node SDK API.
       url_encode: false
       area: mainland
 ```
+
+# Simple Usage
+
+```yaml
+  - name: Tencent Cloud CDN Purge Paths Cache
+    uses: tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache@v1
+    with:
+      paths: https://test.ksh7.com
+      secret-id: ${{secrets.SECRET_ID}}
+      secret-key: ${{secrets.SECRET_KEY}}
+```
