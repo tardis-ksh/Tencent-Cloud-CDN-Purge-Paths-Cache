@@ -1,4 +1,13 @@
-# 1.1.0 (2025-01-02)
+# [1.2.0](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/compare/v1.1.0...v1.2.0) (2025-01-02)
+
+
+### Features
+
+* add pnpm support ([e351c90](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/commit/e351c90733c82a4118aca58be9bb8ab8d621b25a))
+
+
+
+# [1.1.0](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/compare/e0965996b05342f09e16b23e262d283e6cf20fb3...v1.1.0) (2025-01-02)
 
 
 ### Features

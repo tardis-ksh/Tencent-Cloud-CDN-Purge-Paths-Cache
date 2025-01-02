@@ -1,10 +1,13 @@
 {
   "name": "tencent-cloud-cdn-purge-paths-cache",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "packageManager": "pnpm@9.15.2",
   "scripts": {},
   "main": "bootstrap.js",
-  "files": ["index.js", "bootstrap.js"],
+  "files": [
+    "index.js",
+    "bootstrap.js"
+  ],
   "dependencies": {
     "@actions/core": "^1.11.1",
     "tencentcloud-sdk-nodejs-cdn": "^4.0.980"
