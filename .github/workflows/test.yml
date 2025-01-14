@@ -1,4 +1,4 @@
-name: Test
+name: ✅ test
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
       - uses: ./
         with:
           paths: |
-            https://api.ksh7.com/
+            https://test.ksh7.com/
           secret_id: ${{secrets.SECRET_ID}}
           secret_key: ${{secrets.SECRET_KEY}}
           flush_type: delete

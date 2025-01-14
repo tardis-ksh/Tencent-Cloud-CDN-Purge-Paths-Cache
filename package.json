@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "tencentcloud-sdk-nodejs-cdn": "^4.0.980"
+    "@tardis-ksh/tencent": "^2.3.0"
   },
   "devDependencies": {
     "prettier": "^3.4.2"

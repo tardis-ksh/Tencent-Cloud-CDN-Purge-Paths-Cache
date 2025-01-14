@@ -10,10 +10,6 @@ updates:
     schedule:
       interval: "weekly"
     groups:
-#      pnpm-dependencies:
-#        patterns:
-#          - "@pnpm/lockfile-file"
-#          - "@pnpm/dependency-path"
       dev-dependencies:
         dependency-type: "development"
         update-types:
@@ -24,6 +20,7 @@ updates:
         update-types:
           - "minor"
           - "patch"
-    ignore:
-      - dependency-name: "*"
-        update-types: [ "version-update:semver-major" ]
+          - "major"
+#    ignore:
+#      - dependency-name: "*"
+#        update-types: [ "version-update:semver-major" ]
