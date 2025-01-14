@@ -1,7 +1,6 @@
 // actions core
-const core = require("@actions/core");
-
-const { purgePathCache } = require('@tardis-ksh/tencent/cdn');
+import core from '@actions/core';
+import { purgePathCache } from '@tardis-ksh/tencent/cdn'
 
 const inputs = {
   secretId: core.getInput("secret_id"),
