@@ -11,6 +11,6 @@ const inputs = {
   area: core.getInput("area"),
 };
 
-console.log(inputs, "tencent cdn purge cache user inputs");
+// console.log(inputs, "tencent cdn purge cache user inputs");
 
 purgePathCache(inputs)
