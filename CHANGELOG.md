@@ -1,3 +1,12 @@
+## [1.7.1](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/compare/v1.7.0...v1.7.1) (2025-01-16)
+
+
+### Bug Fixes
+
+* update fields ([26b9f1c](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/commit/26b9f1c37d3ade5f481eab5bde2e38b497b4e439))
+
+
+
 # [1.7.0](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/compare/v1.6.0...v1.7.0) (2025-01-16)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * use component ([1d6dc17](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/commit/1d6dc179e8420bca9cf4795ba51d4ad9f0db1cf7))
-
-
-
-# [1.4.0](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/compare/v1.3.0...v1.4.0) (2025-01-14)
-
-
-### Features
-
-* use component ([168de88](https://github.com/tardis-ksh/Tencent-Cloud-CDN-Purge-Paths-Cache/commit/168de88091dc6d986228cc45db8dbdaac83e396e))
 
 
 
