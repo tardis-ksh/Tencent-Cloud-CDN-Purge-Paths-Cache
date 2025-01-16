@@ -5,8 +5,8 @@ import { purgePathCache } from "@tardis-ksh/tencent/cdn";
 const inputs = {
   Paths: core.getInput("paths")?.split(/\s+/).filter(Boolean),
   FlushType: core.getInput("flush_type"),
-  urlEncode: core.getInput("url_encode") === "true",
-  area: core.getInput("area"),
+  UrlEncode: core.getInput("url_encode") === "true",
+  Area: core.getInput("area"),
 };
 
 const credentials = {
