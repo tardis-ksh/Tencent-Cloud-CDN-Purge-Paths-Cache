@@ -12,8 +12,8 @@ importers:
         specifier: ^1.11.1
         version: 1.11.1
       '@tardis-ksh/tencent':
-        specifier: ^2.3.0
-        version: 2.3.0
+        specifier: ^2.4.0
+        version: 2.4.0
     devDependencies:
       prettier:
         specifier: ^3.4.2
@@ -37,8 +37,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@tardis-ksh/tencent@2.3.0':
-    resolution: {integrity: sha512-ajbheFXCaIgnKXZY57jLxCTYT9ie+uAnQt92H/r6h5sXxWJw8vz1yPVZUyJ0vwWc2Z2uRwpUQ8FPpClQCxpY+Q==}
+  '@tardis-ksh/tencent@2.4.0':
+    resolution: {integrity: sha512-ttRaDVr71UUeL1esus9n8wjOpPGvddmKgTdzV78SJihQaCrj5tpw9tTLXp7U5Cf0b/sGmNL9o5aAFqSnierqNA==}
 
   agent-base@6.0.2:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
@@ -89,6 +89,9 @@ packages:
 
   json-bigint@1.0.0:
     resolution: {integrity: sha512-SiPv/8VpZuWbvLSMtTDU8hEfrZWg/mH/nV/b4o0CYbSxu1UIQPLdwKOCIyLQX+VIPO5vrLX3i8qtqFyhdPSUSQ==}
+
+  lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
 
   mime-db@1.52.0:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
@@ -167,9 +170,10 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@tardis-ksh/tencent@2.3.0':
+  '@tardis-ksh/tencent@2.4.0':
     dependencies:
       chalk: 5.4.1
+      lodash-es: 4.17.21
       tencentcloud-sdk-nodejs-cdn: 4.0.1012
     transitivePeerDependencies:
       - encoding
@@ -217,6 +221,8 @@ snapshots:
   json-bigint@1.0.0:
     dependencies:
       bignumber.js: 9.1.2
+
+  lodash-es@4.17.21: {}
 
   mime-db@1.52.0: {}
 
