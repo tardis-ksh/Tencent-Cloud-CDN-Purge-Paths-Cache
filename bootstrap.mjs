@@ -18,6 +18,6 @@ try {
 }
 
 child_process.execSync('pnpm i @tardis-ksh/tencent @actions/core -S', baseConfig);
-child_process.execSync('la -la', baseConfig);
+child_process.execSync('ls -la', baseConfig);
 
 await import('./index.mjs');
