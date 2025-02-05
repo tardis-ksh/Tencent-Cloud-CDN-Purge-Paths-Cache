@@ -1,7 +1,16 @@
 import child_process from 'child_process';
 
-// 环境默认不含有 pnpm
-child_process.execSync('corepack enable', { stdio: 'inherit', cwd: process.cwd() });
-child_process.execSync('pnpm install', { stdio: 'inherit', cwd: process.cwd() });
+const depsFile = 'package.json';
+const baseConfig = {
+	stdio: 'inherit', cwd: process.cwd()
+};
+
+child_process.execSync('npm i pnpm -g', baseConfig);
+
+if (!(await fs.readFile(path.resolve(depsFile)))) {
+	child_process.execSync('pnpm init', baseConfig);
+}
+
+child_process.execSync('pnpm i @tardis-ksh/tencent @actions/core -S', baseConfig);
 
 import('./index.mjs');
