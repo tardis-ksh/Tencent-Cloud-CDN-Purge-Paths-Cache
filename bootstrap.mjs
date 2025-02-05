@@ -1,4 +1,6 @@
 import child_process from 'child_process';
+import fs from 'fs/promises'
+import path from 'path'
 
 const depsFile = 'package.json';
 const baseConfig = {
