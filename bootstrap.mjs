@@ -9,7 +9,11 @@ const baseConfig = {
 
 child_process.execSync('npm i pnpm -g', baseConfig);
 
-if (!(await fs.readFile(path.resolve(depsFile)))) {
+try {
+	await fs.readFile(path.resolve(depsFile))
+} catch (error) {
+	console.error('no deps file found', error)
+	console.log('create package.json ...');
 	child_process.execSync('pnpm init', baseConfig);
 }
 
