@@ -1,6 +1,6 @@
 {
   "name": "tencent-cloud-cdn-purge-paths-cache",
-  "version": "1.12.0",
+  "version": "1.12.1",
   "packageManager": "pnpm@9.15.2",
   "scripts": {},
   "main": "bootstrap.js",
