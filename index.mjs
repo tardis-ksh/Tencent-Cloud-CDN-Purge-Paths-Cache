@@ -32,7 +32,7 @@ if (options.waitFlushDone && TaskId) {
   const flushResult = await describePurgeTasksStatusByTaskId(credentials, {
     TaskId,
   }, {
-    FlushType: 'path',
+    PurgeType: 'path',
     Area: inputs.Area || 'global',
   });
   
