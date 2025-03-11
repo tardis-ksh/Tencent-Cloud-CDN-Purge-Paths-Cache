@@ -24,6 +24,9 @@ inputs:
   area:
     description: "flush area: mainland or overseas"
     required: false
+  wait_flush_done:
+    description: "wait current flush done"
+    required: false
 
 runs:
   using: node20

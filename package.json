@@ -1,7 +1,7 @@
 {
   "name": "tencent-cloud-cdn-purge-paths-cache",
   "version": "1.12.1",
-  "packageManager": "pnpm@9.15.2",
+  "packageManager": "pnpm@10.6.2",
   "scripts": {},
   "main": "bootstrap.js",
   "files": [
@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "@tardis-ksh/tencent": "^2.4.0"
+    "@tardis-ksh/tencent": "^2.5.0"
   },
   "devDependencies": {
     "prettier": "^3.5.3"

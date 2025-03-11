@@ -25,6 +25,7 @@ jobs:
           flush_type: delete
           url_encode: false
           area: mainland
+          wait_flush_done: true
 
   test-passing:
     needs: [test]
