@@ -17,6 +17,7 @@ This action purges paths cache for Tencent Cloud CDN via Node SDK API.
       flush_type: delete
       url_encode: false
       area: mainland
+      wait_flush_done: true
 ```
 
 # Simple Usage
