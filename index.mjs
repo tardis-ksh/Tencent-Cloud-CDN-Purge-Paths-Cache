@@ -22,15 +22,19 @@ const credentials = {
 
 const purgeResult = await purgePathCache(credentials, inputs);
 
-if (options.waitFlushDone && purgeResult.TaskId) {
+const TaskId = purgeResult?.data.TaskId;
+
+if (options.waitFlushDone && TaskId) {
+  console.log("Waiting for task done...", TaskId);
+  
   // wait taskId in purgeResult
   await new Promise(resolve => setTimeout(resolve, 1500));
   const flushResult = await describePurgeTasksStatusByTaskId(credentials, {
-    TaskId: purgeResult.TaskId,
+    TaskId,
   }, {
     FlushType: 'path',
     Area: inputs.Area || 'global',
   });
   
-  console.log(flushResult);
+  console.log(flushResult ? `Task Done: ${TaskId}` : 'Task Failed, you can check result on website.');
 }
