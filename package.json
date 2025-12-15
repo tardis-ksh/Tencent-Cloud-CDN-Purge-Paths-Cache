@@ -9,7 +9,7 @@
     "bootstrap.js"
   ],
   "dependencies": {
-    "@actions/core": "^1.11.1",
+    "@actions/core": "^2.0.1",
     "@tardis-ksh/tencent": "^2.5.0"
   },
   "devDependencies": {
